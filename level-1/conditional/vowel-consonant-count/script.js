@@ -27,3 +27,6 @@ function getConsonantCount(sentence) {
   }
   return count;
 }
+
+const consonantCount = getConsonantCount("Coding is fun");
+console.log(`Consonant Count: ${consonantCount}`);
