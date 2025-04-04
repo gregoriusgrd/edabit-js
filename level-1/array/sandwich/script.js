@@ -11,5 +11,7 @@ getFillings(["bread", "lettuce", "bacon", "tomato", "bread"]); // ➞ ["lettuce"
 
 // using slice
 /*
-const getFillings = sandwich => sandwich.slice(1, -1);
+function getFillings(sandwich) {
+	return sandwich.slice(1,-1)
+}
 */
