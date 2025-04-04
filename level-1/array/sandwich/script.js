@@ -5,4 +5,6 @@ function getFillings(sandwich) {
   return sandwich;
 }
 
-console.log(getFillings(["bread", "ham", "cheese", "ham", "bread"]));
+getFillings(["bread", "ham", "cheese", "ham", "bread"]); // ➞ ["ham", "cheese", "ham"]
+getFillings(["bread", "sausage", "tomato", "bread"]); // ➞ ["sausage", "tomato"]
+getFillings(["bread", "lettuce", "bacon", "tomato", "bread"]); // ➞ ["lettuce", "bacon", "tomato"]
